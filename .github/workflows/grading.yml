@@ -17,6 +17,6 @@ jobs:
           token: ${{ secrets.PAT }}
       - name: Check repository clean
         run: ./2-grading-tests/scripts/check_clean.sh
-      - name: Build
+      - name: Test
         run: ./2-grading-tests/scripts/test.sh
 
