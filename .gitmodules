@@ -1,0 +1,3 @@
+[submodule "2-grading-tests"]
+	path = 2-grading-tests
+	url = https://github.com/vkutuev-classrooms-test/2-grading-tests.git
