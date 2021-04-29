@@ -1,0 +1,13 @@
+version: 2
+updates:
+- package-ecosystem: gitsubmodule
+  directory: "/."
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  allow:
+  - dependency-name: 2-vkutuev-test
+  ignore:
+  - dependency-name: 2-grading-tests
+    versions:
+    - ">= 0"
